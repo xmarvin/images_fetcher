@@ -1,12 +1,16 @@
 # ImagesFetcher
 
-TODO: Write a gem description
+It's a small ruby gem for showing popup with images from selected url
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
     gem 'images_fetcher'
+
+Add this line to your routes.rb file:
+
+    mount ImagesFetcher::Engine, at: '/im'
 
 And then execute:
 
