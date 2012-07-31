@@ -1,5 +1,7 @@
 class RequestsController <  ActionController::Base
 
+  caches_action :fetch
+
   def fetch
     url = params['url'] || ''
     uri = URI(url)
