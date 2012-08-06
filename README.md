@@ -34,10 +34,10 @@ Use helper method init_images_fetcher(link, image_link_input, image_preview='') 
 
 For  example:
 
-  <input type=text id="book_link">  <-- input url with images here 
-  <input type=text id="card_remote_image_url">  <- you get link to image to this field after close popup with images
-  <img id="remote_image_preview" /> <- optionally,  display here selected image
-  <%= init_images_fetcher('#book_link', '#card_remote_image_url', '#remote_image_preview') %>
+ &lt;input type=text id=&quot;book_link&quot;&gt;  &lt;-- input url with images here<br/>
+  &lt;input type=text id=&quot;card_remote_image_url&quot;&gt;  &lt;- you get link to image to this field after close popup with images<br/>
+  &lt;img id=&quot;remote_image_preview&quot; /&gt; &lt;- optionally,  display here selected image<br/>
+  &lt;%= init_images_fetcher('#book_link', '#card_remote_image_url', '#remote_image_preview') %&gt;<br/>
 
 ## Contributing
 
