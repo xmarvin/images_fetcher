@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 require File.expand_path('../lib/images_fetcher/version', __FILE__)
-
+require File.expand_path('../app/helpers/images_fetcher_helper', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Alexey Kisel"]
   gem.email         = ["aki@jetthoughts.com"]

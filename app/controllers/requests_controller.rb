@@ -1,3 +1,4 @@
+require 'net/http'
 class RequestsController <  ActionController::Base
 
   caches_action :fetch
