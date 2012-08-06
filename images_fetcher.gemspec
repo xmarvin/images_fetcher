@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["aki@jetthoughts.com"]
   gem.description   = "It's a small ruby gem for showing popup with images from selected url"
   gem.summary       = "It's a small ruby gem for showing popup with images from selected url"
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/spy-a/images_fetcher"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
