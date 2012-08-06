@@ -1,6 +1,3 @@
-//= require jquery.ui.all
-//= require bootstrap
-
 window.ImagesFetcher = ImagesFetcher =
   init: (wbs, ids,rip)->
     web_link_selector = wbs
