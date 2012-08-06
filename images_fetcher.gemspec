@@ -14,4 +14,9 @@ Gem::Specification.new do |gem|
   gem.name          = "images_fetcher"
   gem.require_paths = ["lib", "app"]
   gem.version       = ImagesFetcher::VERSION
+ 
+  gem.add_dependency 'jquery-rails'
+  gem.add_dependency 'jquery-ui-rails'
+  gem.add_dependency "bootstrap-sass", ">= 2.0.1" 
+  gem.add_dependency 'haml'
 end
