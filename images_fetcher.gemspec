@@ -4,8 +4,8 @@ require File.expand_path('../app/helpers/images_fetcher_helper', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Alexey Kisel"]
   gem.email         = ["aki@jetthoughts.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "It's a small ruby gem for showing popup with images from selected url"
+  gem.summary       = "It's a small ruby gem for showing popup with images from selected url"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
